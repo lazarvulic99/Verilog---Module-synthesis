@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 22 12:20:55 2021
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : stavka_f
+Top-level Entity Name : stavka_f
+Family : Cyclone III
+Total logic elements : 497
+    Total combinational functions : 493
+    Dedicated logic registers : 90
+Total registers : 90
+Total pins : 16
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
