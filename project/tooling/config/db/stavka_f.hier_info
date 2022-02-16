@@ -1,0 +1,37 @@
+|stavka_f
+rst_n => rst_n.IN2
+clk => clk.IN2
+select => Decoder0.IN0
+add => add.IN1
+next => next.IN1
+data_in[0] => Add1.IN8
+data_in[1] => Add1.IN7
+data_in[2] => Add1.IN6
+data_in[3] => Add1.IN5
+data_out[0] <= data_out_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_out_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_out_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_out_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|stavka_f|stavka_a:a0
+rst_n => ff2_reg.ACLR
+rst_n => ff1_reg.ACLR
+clk => ff2_reg.CLK
+clk => ff1_reg.CLK
+in => ff1_reg.DATAIN
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|stavka_f|stavka_a:a1
+rst_n => ff2_reg.ACLR
+rst_n => ff1_reg.ACLR
+clk => ff2_reg.CLK
+clk => ff1_reg.CLK
+in => ff1_reg.DATAIN
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

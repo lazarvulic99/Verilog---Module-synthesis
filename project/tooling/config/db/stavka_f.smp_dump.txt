@@ -1,0 +1,6 @@
+
+State Machine - |stavka_f|state_reg
+Name state_reg.setup state_reg.timer state_reg.gcd 
+state_reg.setup 0 0 0 
+state_reg.gcd 1 0 1 
+state_reg.timer 1 1 0 
